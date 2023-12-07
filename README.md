@@ -19,6 +19,7 @@ To build the nodeJS application and deploy the monitoring stack, please run the 
 8.Username and Password for Grafana: admin and admin
 
 ** make sure docker engine is installed in the system
+** volume in docker-compose is mounted at /var/log so make sure to have this path in your system or else you can change the path as per your convenience in the docker-docpose.yml
 
 --------------------
 
