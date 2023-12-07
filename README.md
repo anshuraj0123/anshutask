@@ -4,7 +4,7 @@ To build the nodeJS application and deploy the monitoring stack, please run the 
 
 1.Navigate to Docker directory. You can find Dockerfile of the nodeJS application.
 
-2.To deploy the monitoring stack, run tis command: docker-compose up
+2.To deploy the monitoring stack, run this command: docker-compose up
 
 3.Above command will build the nodeJS application and deploy the monitoring stack.
 
@@ -41,5 +41,3 @@ terraform init
 terraform plan
 
 terraform apply 
-
-* make sure you configure AWS CLI before running terraform
