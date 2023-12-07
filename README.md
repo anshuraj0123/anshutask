@@ -2,7 +2,7 @@
 
 To build the nodeJS application and deploy the monitoring stack, please run the command : 
 
-1.Navigate to Docker directory. You can find Dockerfile of the nodeJS application.
+1.Navigate to Docker floder(anshutask/Docker/). You can find Dockerfile of the nodeJS application.
 
 2.To deploy the monitoring stack, run this command: docker-compose up
 
@@ -34,7 +34,7 @@ Grafana is a visualizing tool which supports loki as a data source.
 
 # Programming:
 
-To run python program ,run this command in root directory(anshutask) : python3 prime.py
+To run python program ,run this command in root folder (anshutask/) : python3 prime.py
 
 Prompt will ask you to enter start and end range of prime number series you want.
 
@@ -42,7 +42,7 @@ Prompt will ask you to enter start and end range of prime number series you want
 
 # Infrastructure as Code (IaC):
 
-To deploy Infrastructure via Terraform, navigate to Terraform directory and run below steps:
+To deploy Infrastructure via Terraform, navigate to Terraform folder (anshutask/Terraform/) and run below steps:
 
 terraform init
 
@@ -50,4 +50,4 @@ terraform plan
 
 terraform apply 
 
-** we can modify the variables as per the requirements in terraform.tfvars
+** we can modify the input values of variables as per the requirements in terraform.tfvars
