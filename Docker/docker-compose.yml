@@ -1,0 +1,43 @@
+version: "3"
+
+networks:
+  loki:
+
+services:
+  loki:
+    image: grafana/loki
+    hostname: loki
+    ports:
+      - "3100:3100"
+    volumes:
+      - ./loki:/etc/loki
+    command: -config.file=/etc/loki/loki-config.yaml
+    networks:
+      - loki
+    restart: always
+
+  promtail:
+    image: grafana/promtail
+    volumes:
+      - /var/log:/var/log
+      - ./promtail:/etc/promtail 
+    command: -config.file=/etc/promtail/promtail-config.yaml
+    networks:
+      - loki
+    restart: always
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    networks:
+      - loki
+    restart: always
+
+  nodejs:
+    build: .
+    ports:
+      - "80:3000"
+    networks:
+      - loki
+    restart: always
