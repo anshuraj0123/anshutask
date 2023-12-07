@@ -1,7 +1,9 @@
 Docker and Monitoring:
 To build the nodeJS application and deploy the monitoring stack, please run the command : 
 1.Navigate to Docker directory. You can find Dockerfile of the nodeJS application.
+
 2.To deploy the monitoring stack, run tis command: docker-compose up
+
 3.Above command will build the nodeJS application and deploy the monitoring stack.
 4. You can access the nodeJS application at localhost:80
 5. You can check promtail metrics at localhost:3100/metrics
