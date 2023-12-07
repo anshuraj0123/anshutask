@@ -20,17 +20,23 @@ To build the nodeJS application and deploy the monitoring stack, please run the 
 
 ** make sure docker engine is installed in the system
 
+--------------------
+
 Promtail is a client which fetches and forwards the logs to loki.
 
 Loki is a log aggregation system.
 
 Grafana is a visualizing tool which supports loki as a data source.
 
+-------------------
+
 Programming:
 
 To run python program run python3 prime.py
 
 Prompt will ask you to enter start and end range of prime number series you want.
+
+-------------------
 
 Infrastructure as Code (IaC):
 
