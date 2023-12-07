@@ -6,17 +6,17 @@ To build the nodeJS application and deploy the monitoring stack, please run the 
 
 2.To deploy the monitoring stack, run this command: docker-compose up
 
-3.Above command will build the nodeJS application and deploy the monitoring stack.
+Above command will build the nodeJS application and deploy the monitoring stack.
 
-4.Access the nodeJS application at localhost:80
+Access the nodeJS application at localhost:80
 
-5.Check Promtail metrics at localhost:3100/metrics
+Check Promtail metrics at localhost:3100/metrics
 
-6.Confirm Loki is ready at localhost:3100/ready
+Confirm Loki is ready at localhost:3100/ready
 
-7.Access Grafana dashboard at localhost:3000
+Access Grafana dashboard at localhost:3000
 
-8.Username and Password for Grafana: admin and admin
+Username and Password for Grafana: admin and admin
 
 ** make sure docker engine is installed in the system
 
@@ -34,7 +34,7 @@ Grafana is a visualizing tool which supports loki as a data source.
 
 # Programming:
 
-To run python program run this command in root directory : python3 prime.py
+To run python program ,run this command in root directory(anshutask) : python3 prime.py
 
 Prompt will ask you to enter start and end range of prime number series you want.
 
@@ -49,3 +49,5 @@ terraform init
 terraform plan
 
 terraform apply 
+
+** we can modify the variables as per the requirements in terraform.tfvars
