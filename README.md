@@ -1,4 +1,4 @@
-Docker and Monitoring:
+# Docker and Monitoring:
 
 To build the nodeJS application and deploy the monitoring stack, please run the command : 
 
@@ -32,7 +32,7 @@ Grafana is a visualizing tool which supports loki as a data source.
 
 -------------------
 
-Programming:
+# Programming:
 
 To run python program run python3 prime.py
 
@@ -40,7 +40,7 @@ Prompt will ask you to enter start and end range of prime number series you want
 
 -------------------
 
-Infrastructure as Code (IaC):
+# Infrastructure as Code (IaC):
 
 To deploy Infrastructure via Terraform, move to Terraform directory and run below steps:
 
