@@ -8,15 +8,15 @@ To build the nodeJS application and deploy the monitoring stack, please run the 
 
 3.Above command will build the nodeJS application and deploy the monitoring stack.
 
-4. You can access the nodeJS application at localhost:80
+4.You can access the nodeJS application at localhost:80
 
-5. You can check promtail metrics at localhost:3100/metrics
+5.You can check promtail metrics at localhost:3100/metrics
 
-6. Confirm Loki is ready at localhost:3100/ready
+6.Confirm Loki is ready at localhost:3100/ready
 
-7. Grafana dashboard localhost:3000
+7.Grafana dashboard localhost:3000
 
-8. Username and Password for Grafana: admin and admin
+8.Username and Password for Grafana: admin and admin
 
 ** make sure docker engine is installed in the system
 
