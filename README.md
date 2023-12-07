@@ -34,7 +34,7 @@ Grafana is a visualizing tool which supports loki as a data source.
 
 # Programming:
 
-To run python program run python3 prime.py
+To run python program run this command in root directory : python3 prime.py
 
 Prompt will ask you to enter start and end range of prime number series you want.
 
@@ -42,7 +42,7 @@ Prompt will ask you to enter start and end range of prime number series you want
 
 # Infrastructure as Code (IaC):
 
-To deploy Infrastructure via Terraform, move to Terraform directory and run below steps:
+To deploy Infrastructure via Terraform, navigate to Terraform directory and run below steps:
 
 terraform init
 
