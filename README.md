@@ -2,7 +2,7 @@
 
 To build the nodeJS application and deploy the monitoring stack, please run the command : 
 
-1.Navigate to Docker floder(anshutask/Docker/). You can find Dockerfile of the nodeJS application.
+1.Navigate to Docker floder (anshutask/Docker/). You can find Dockerfile of the nodeJS application.
 
 2.To deploy the monitoring stack, run this command: docker-compose up
 
